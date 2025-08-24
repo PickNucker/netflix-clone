@@ -47,6 +47,24 @@ namespace netflix_backend.Data
                     Genre = "Sci-Fi",
                     ReleaseDate = new DateTime(2014, 11, 7),
                     Rating = 8.6
+                },
+                new FilmEntry
+                {
+                    Id = 4,
+                    Title = "The Matrix",
+                    Description = "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+                    Genre = "Action",
+                    ReleaseDate = new DateTime(1999, 3, 31),
+                    Rating = 8.7
+                },
+                new FilmEntry
+                {
+                    Id = 5,
+                    Title = "Pulp Fiction",
+                    Description = "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+                    Genre = "Crime",
+                    ReleaseDate = new DateTime(1994, 10, 14),
+                    Rating = 8.9
                 }
             );
         }

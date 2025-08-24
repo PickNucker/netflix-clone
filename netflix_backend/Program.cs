@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<NetflixCloneDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-    
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(MyAllowSpecificOrigins,
@@ -50,6 +50,11 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+
+app.MapGet("/filmentries", async (NetflixCloneDbContext dbContext) =>
+{
+    return await dbContext.FilmEntries.ToListAsync();
+});
 
 app.Run();
 public record WeatherForecast(DateOnly Date, int TemperatureC, string Summary)
