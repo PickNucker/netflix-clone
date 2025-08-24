@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetflixBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77efd56dfc4ec9cb502763c4d4bc782d9b3efb53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcb2cc2abbe37c6cb1edb0fb604a0d900fd48e2d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetflixBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetflixBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
