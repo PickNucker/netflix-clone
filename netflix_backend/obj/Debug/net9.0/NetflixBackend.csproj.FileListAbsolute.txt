@@ -163,3 +163,6 @@
 /Users/picknucker/Desktop/netflix-clone/netflix_backend/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
 /Users/picknucker/Desktop/netflix-clone/netflix_backend/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
 /Users/picknucker/Desktop/netflix-clone/netflix_backend/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/picknucker/Desktop/netflix-clone/netflix_backend/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/picknucker/Desktop/netflix-clone/netflix_backend/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/picknucker/Desktop/netflix-clone/netflix_backend/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
