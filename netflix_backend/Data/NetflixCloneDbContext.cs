@@ -1,25 +1,26 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using netflix_backend.models;
 
 namespace netflix_backend.Data
 {
-    public class NetflixCloneDbContext : DbContext
+    // Erbt von IdentityDbContext, damit auch alle Identity-Tabellen erstellt werden
+    public class NetflixCloneDbContext : IdentityDbContext<IdentityUser>
     {
         public NetflixCloneDbContext(DbContextOptions<NetflixCloneDbContext> options) : base(options)
         {
-
         }
 
+        // Deine eigene Tabelle für Filme
         public DbSet<FilmEntry> FilmEntries { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
+            // Seed Data für Filme
             modelBuilder.Entity<FilmEntry>().HasData(
                 new FilmEntry
                 {

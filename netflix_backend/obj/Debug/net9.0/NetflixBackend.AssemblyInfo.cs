@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetflixBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36003d3b20b6a6f57bef60ca6b0a912bc5d004ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9d09bc4b1e9ead214101506fa0bf9e06548fe29")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetflixBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetflixBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
